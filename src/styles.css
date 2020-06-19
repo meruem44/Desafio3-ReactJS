@@ -6,11 +6,11 @@
 
 body {
   font-size: 14px;
+  background-color: #7159c1;
 }
 
 div {
   width: 100%;
-  margin: 20px;
 }
 
 div li {
@@ -19,7 +19,6 @@ div li {
 }
 
 div li + li {
-  margin-top: 15px;
 }
 
 button {
@@ -28,7 +27,6 @@ button {
   border: 0;
   padding: 10px 15px;
   cursor: pointer;
-  margin-top: 15px;
   font-weight: bold;
   font-size: 14px;
 }
@@ -37,3 +35,52 @@ div li button {
   margin: 0 15px;
   background: #ca4949;
 }
+
+.card {
+  max-width: 35%;
+}
+
+.jumbotron {
+  background-color: #fff;
+  width: 55%;
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+.btn-header {
+  background-color: #41356b;
+  color: #fff !important;
+  transition: 500ms;
+
+}
+
+.btn-header:hover {
+  background-color: #7159c1;
+
+}
+
+.p-header, .lead {
+  font-size: 20px;
+}
+
+.lottie {
+  padding-top: 10%;
+}
+
+.form-group label {
+  font-size: 24px; 
+}
+
+.form-group small {
+  font-size: 16px;
+}
+
+.navbarRe {
+  margin-bottom: 10px;
+  background-color: #7159c1;
+}
+
+
+
